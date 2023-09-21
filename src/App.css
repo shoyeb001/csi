@@ -28,6 +28,30 @@
   color: #61dafb;
 }
 
+.button1{
+    color: #0CE0FF;
+}
+.button2{
+  color: #FFAF14;
+}
+.button2:hover{
+  color: #ffffff;
+}
+.text-h1{
+  color: #0E82FD;
+}
+.button1{
+  color: #0E82FD;
+}
+
+.heading-button{
+  color: #0CE0FF;
+}
+
+.who-are-we-card{
+  color: #E3FBFF;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

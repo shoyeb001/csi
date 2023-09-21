@@ -1,0 +1,76 @@
+.home{
+    width: 100%;
+    position: relative;
+    margin-top: 15px;
+    height: auto;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.button{
+    cursor: none;
+    color: #fff !important;
+    width: 145px;
+    height: 51px;
+    font-weight: 600;
+    background: #0E82FD;
+
+}
+
+p{
+    color: #000;
+    margin-top: 10px;
+}
+.button{
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+}
+
+.main{
+    width: 65%;
+}
+.photo{
+    width: 35%;
+    position: relative;
+}
+.photo .container img{
+    width: 100%;
+}
+
+.high{
+    color:  #0E82FD;
+}
+
+.virus{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    animation: mymove 5s infinite;
+    -webkit-animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {top: 10px;}
+    to {top: 30px;}
+}
+
+.nose{
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  animation: nosemove 3s infinite;
+  z-index: 2;
+  width: 106px;
+  -webkit-animation: nosemove 3s infinite;
+}
+
+@keyframes nosemove {
+    from {bottom: 10px;}
+    to {bottom: 30px;}
+}

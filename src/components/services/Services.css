@@ -1,0 +1,60 @@
+.service{
+    width: 100%;
+    position: relative;
+    border: none;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.service .heading{
+    font-size: 30px;
+    font-weight: 700;
+    color: #0E82FD;
+    padding-top: 50px;
+}
+.service h3{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: -32px;
+}
+
+.service .s-container{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+}
+
+.service .s-container .media{
+    width: 50%;
+    height: 500px;
+}
+.service .s-container .article{
+    width: 50%;
+}
+
+
+.service .media .doctor{
+    width: 90%;
+    margin: auto;
+}
+
+.service .media .doctor img{
+    max-width: 376px;
+}
+.card-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.article .button{
+    cursor: none;
+    color: #fff !important;
+    width: 145px;
+    height: 40px;
+    font-weight: 600;
+    background: #0E82FD;
+    float: right;
+
+}

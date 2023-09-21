@@ -1,0 +1,38 @@
+.navbar{
+    background-color: none !important;
+    background: none !important;
+}
+
+
+.item:hover{
+    background-color: none !important;
+    background: none !important;
+
+}
+
+.btn{
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+    cursor: none;
+    color: #fff !important;
+    width: 145px;
+    background: #0CE0FF;
+}
+
+.btn1{
+    background: #0CE0FF !important;
+}
+.btn2{
+    background:  #FFAF14 !important;
+}
+.navbar-item{
+    font-weight: 500;
+}
+
+.button .icons{
+    margin-right: 10px;
+}
+
+.navbar-item:hover{
+    color: #0CE0FF;
+}

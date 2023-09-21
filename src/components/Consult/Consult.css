@@ -1,0 +1,20 @@
+.pannel{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.row{
+    justify-content: space-between;
+}
+
+.consult{
+    width: 100%;
+    padding: 20px 30px;
+    margin-top: 40px;
+}
+
+.consult p{
+    text-align: center;
+}
